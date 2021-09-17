@@ -1,0 +1,18 @@
+{
+  "videos": false,
+  "defaultsCommandTimeout": 5000,
+  "pageLoadTimeout": 15000,
+  "ignoreTestFiles": [
+    "*.js",
+    "*.md"
+  ],
+  "projectId": "cm23ne",
+  "reporter": "mochawesome",
+  "reporterOptions":
+  {
+    "reportDir": "cypress/reports",
+    "overwrite": true,
+    "html": true,
+    "json": false
+  }
+}
